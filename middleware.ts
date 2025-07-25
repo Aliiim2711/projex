@@ -4,16 +4,16 @@
 
 // export async function middleware(request: NextRequest) {
 //   const { pathname } = request.nextUrl;
-  
+
 //   // Define public routes that don't require authentication
 //   const publicRoutes = [
 //     '/',
 //     '/login',
 //     '/create-account',
 //     '/forget-password',
-    
+
 //   ];
-  
+
 //   // Allow access to public routes without authentication check
 //   if (publicRoutes.includes(pathname)) {
 //     return NextResponse.next();
